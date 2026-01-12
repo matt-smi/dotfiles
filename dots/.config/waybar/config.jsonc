@@ -19,7 +19,8 @@
 	}
     },
     "clock": {
-        "format": "{:%m/%d %I:%M}  "
+        "format": "{:%m/%d %I:%M}  ",
+	"tooltip": false
     },
     "pulseaudio": {
         "format": "{volume}% {icon}",
