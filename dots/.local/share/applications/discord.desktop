@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Discord
-Comment=Open Discord the browser
+Comment=Open Discord in the browser
 Exec=chromium --app=https://discord.com/channels/@me
 Icon=discord
 Terminal=false
