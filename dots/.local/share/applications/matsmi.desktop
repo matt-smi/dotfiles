@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=matsmi
+Comment=Open personal website the browser
+Exec=firefox --new-window https://www.matsmi.com
+Icon=matsmi
+Terminal=false
+Type=Application
+Categories=WebApplication
