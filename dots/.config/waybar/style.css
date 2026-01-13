@@ -3,28 +3,20 @@
     font-size: 13px;
     border: none;
     border-radius: 0;
+    color: #ffffff;
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.0);
-    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6); 
     transition-property: background-color;
     transition-duration: .5s;
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
+    padding: 0px 1px;
 }
 
-#workspaces button.active {
-    background-color: transparent;
-}
-
-#clock, #cpu, #memory, #pulseaudio, #window, #workspaces {
-    padding: 0 10px;
-    margin: 4px 2px;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 8px;
+#clock, #cpu, #memory, #pulseaudio, #window {
+    padding: 0px 5px;
+    margin: 0px 5px;
 }
