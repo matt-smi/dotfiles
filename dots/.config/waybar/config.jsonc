@@ -1,7 +1,7 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 10,
+    "height": 24,
     "spacing": 4,
     "margin-bottom": 0,
     // Choose the order of the modules
