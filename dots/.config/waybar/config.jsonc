@@ -21,6 +21,7 @@
     },
     "clock": {
         "format": "{:%m/%d %I:%M}  ",
+	"timezone": "America/Los_Angeles",
 	"tooltip": false
     },
     "pulseaudio": {
