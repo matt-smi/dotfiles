@@ -1,8 +1,8 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 24,
-    "spacing": 4,
+    "height": 26,
+    "spacing": 0,
     "margin-bottom": 0,
     // Choose the order of the modules
     "modules-left": ["cpu", "memory"],
@@ -12,7 +12,6 @@
     // Module Configurations
     "hyprland/workspaces": {
         "format": "{icon}",
-        "on-click": "activate",
         "format-icons": {
             "active": "",
             "default": "",
@@ -20,7 +19,7 @@
 	}
     },
     "clock": {
-        "format": "{:%m/%d %I:%M}  ",
+        "format": "{:%m/%d %I:%M}",
 	"timezone": "America/Los_Angeles",
 	"tooltip": false
     },
@@ -34,7 +33,7 @@
     },
     "cpu": {
 	"interval": 10,
-	"format": "{usage}% ",
+	"format": "{usage:2}% ",
 	"tooltip": false
     },
     "memory": {

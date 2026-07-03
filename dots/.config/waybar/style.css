@@ -1,26 +1,62 @@
 * {
-    font-family: "JetBrainsMono Nerd Font", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 13px;
     border: none;
     border-radius: 0;
-    color: #ffffff;
+    font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font";
+    font-size: 13px;
+    min-height: 0;
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.6); 
-    transition-property: background-color;
-    transition-duration: .5s;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+#cpu,
+#memory,
+#pulseaudio,
+#clock,
+#workspaces {
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    
+    box-shadow: none;
+    text-shadow: none;
+    transition: none;
+
+    padding: 0;
+    margin: 0 1rem;
 }
 
 #workspaces button {
-    padding: 0px 1px;
+    padding: 0;
+    margin: 0 0.25rem;
+    background: transparent;
+
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-shadow: none;
+    transition: none;
+    color: white;
 }
 
 #workspaces button:hover {
     background: transparent;
+    color: rgba(255, 255, 255, 0.5);
+
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    text-shadow: none;
 }
 
-#clock, #cpu, #memory, #pulseaudio, #window {
-    padding: 0px 5px;
-    margin: 0px 5px;
+#workspaces button.active {
+    border: none;
+    border-top: none;
+    box-shadow: none;
 }
+
