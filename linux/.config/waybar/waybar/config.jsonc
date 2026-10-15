@@ -1,0 +1,44 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 26,
+    "spacing": 0,
+    "margin-bottom": 0,
+    // Choose the order of the modules
+    "modules-left": ["cpu", "memory"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "clock"],
+
+    // Module Configurations
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "",
+            "default": "",
+            "urgent": ""
+	}
+    },
+    "clock": {
+        "format": "{:%m/%d %I:%M}",
+	"timezone": "America/Los_Angeles",
+	"tooltip": false
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+	"interval": 10,
+	"format": "{usage:2}% ",
+	"tooltip": false
+    },
+    "memory": {
+	"interval": 20,
+	"format": "{}% ",
+	"tooltip": false
+    }
+}
