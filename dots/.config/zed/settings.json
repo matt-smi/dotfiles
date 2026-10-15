@@ -1,0 +1,89 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 400.0,
+  "use_smartcase_search": true,
+  "disable_ai": true,
+  "zoomed_padding": true,
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {},
+  "tab_bar": {
+    "show_nav_history_buttons": true,
+    "show": true
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_sign_in": false,
+    "show_branch_name": true
+  },
+  "debugger": {
+    "button": true
+  },
+  "search": {
+    "button": false
+  },
+  "status_bar": {
+    "cursor_position_button": false,
+    "active_language_button": false
+  },
+  "cursor_blink": false,
+  "project_panel": {
+    "button": false,
+    "dock": "right"
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "vim_mode": true,
+  "base_keymap": "JetBrains",
+  "ui_font_size": 12,
+  "buffer_font_size": 12.0,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
+  "auto_install_extensions": {
+    "html": true,
+    "proto": true,
+    "toml": true
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "Everforest Dark Soft",
+    "dark": "Everforest Dark Hard"
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "settings": {
+        "cargo": {
+          "loadOutDirsFromCheck": true
+        },
+        "procMacro": {
+          "enable": true
+        }
+      }
+    }
+  }
+}

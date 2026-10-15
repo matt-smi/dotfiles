@@ -1,0 +1,43 @@
+# Font
+font-family = "Hack Nerd Font Mono"
+
+# Colors (Everforest-style)
+background = 272e33
+foreground = d8caac
+cursor-color = d8caac
+selection-foreground = d8caac
+selection-background = 505a60
+
+palette = 0=#3c474d
+palette = 8=#868d80
+palette = 1=#e68183
+palette = 9=#e68183
+palette = 2=#a7c080
+palette = 10=#a7c080
+palette = 3=#d9bb80
+palette = 11=#d9bb80
+palette = 4=#83b6af
+palette = 12=#83b6af
+palette = 5=#d39bb6
+palette = 13=#d39bb6
+palette = 6=#87c095
+palette = 14=#87c095
+palette = 7=#868d80
+palette = 15=#868d80
+
+# Transparency
+background-opacity = 0.40
+background-blur = 40
+
+# Window
+window-padding-x = 20
+window-padding-y = 20
+macos-titlebar-style = hidden
+quit-after-last-window-closed = true
+resize-overlay = never
+
+# Shell integration + SSH
+shell-integration-features = ssh-terminfo,ssh-env
+
+# Keybinds
+keybind = cmd+t=new_window
