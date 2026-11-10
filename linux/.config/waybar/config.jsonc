@@ -20,7 +20,7 @@
     },
     "clock": {
         "format": "{:%m/%d %I:%M}",
-	"timezone": "America/Los_Angeles",
+	"timezone": "America/Vancouver",
 	"tooltip": false
     },
     "pulseaudio": {
